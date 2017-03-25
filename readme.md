@@ -93,17 +93,17 @@ Resources
 -   os.path.join()
     -   [docs](https://docs.python.org/3.5/library/os.path.html#os.path.join)
 
-### Expressions that might be usefule
+### Expressions that might be useful
 
 1.  lambda expressions
 
-    -   example
+    -   An example
 
     ``` {.python}
     lambda arg: some_function(some_arg, arg, another_arg)
     ```
 
-    -   another example
+    -   Another example
 
     ``` {.python}
     lambda arg0, arg1: function(arg0, arg1, arrrrg_pirate)

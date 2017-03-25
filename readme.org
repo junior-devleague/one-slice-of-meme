@@ -71,7 +71,7 @@
     + os.path.join()
       - [[https://docs.python.org/3.5/library/os.path.html#os.path.join][docs]]
 
-*** Expressions that might be usefule
+*** Expressions that might be useful
 
 **** lambda expressions
      + An example
