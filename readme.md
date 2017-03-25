@@ -114,3 +114,16 @@ Resources
     ``` {.python}
     [some_variable for some_variable in list of variables]
     ```
+
+### List operations that might be useful
+
+-   `len(somelist)`
+-   `somelist[]`
+-   `somelist[start:stop]`
+-   `somelist[start:stop:step]`
+-   `somelist.pop(index)`
+-   `somelist.reverse()`
+-   list every other list item `somelist[::2]`
+-   list every other, starting with 'index' `somelist[index::2]`
+-   create a copy `somelist[]`
+-   additional info [here](http://effbot.org/zone/python-list.htm)
