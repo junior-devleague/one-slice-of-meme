@@ -55,11 +55,10 @@ class LeftBeef:
         image = Image.open('./assets/meat-left.jpg').convert('RGBA')
         pieces = slice_to_pieces(image, 125, 4, 3)
 
-        string_heads = [x for x in range(len(pieces))]
-        random.shuffle(string_heads)
+        random.shuffle(pieces)
 
         os.mkdir('./left-beef')
-        for piece, head in zip(pieces, string_heads):
+        for piece, head in zip(pieces, range(len(pieces))):
             piece.save('left-beef/{}-left-beef.jpg'.format(head))
 
         return "A meaty meme has been observed in 'left-beef/' directory, enjoy!"
