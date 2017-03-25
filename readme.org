@@ -74,12 +74,12 @@
 *** Expressions that might be usefule
 
 **** lambda expressions
-     + 
+     + An example
 #+BEGIN_SRC python
 lambda arg: some_function(some_arg, arg, another_arg)
 #+END_SRC
 
-     + 
+     + Another example
 #+BEGIN_SRC python
 lambda arg0, arg1: function(arg0, arg1, arrrrg_pirate)
 #+END_SRC

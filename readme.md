@@ -97,13 +97,13 @@ Resources
 
 1.  lambda expressions
 
-    -   
+    -   example
 
     ``` {.python}
     lambda arg: some_function(some_arg, arg, another_arg)
     ```
 
-    -   
+    -   another example
 
     ``` {.python}
     lambda arg0, arg1: function(arg0, arg1, arrrrg_pirate)
