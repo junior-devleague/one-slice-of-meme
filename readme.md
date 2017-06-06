@@ -50,8 +50,8 @@ Preparing the activity
 1.  Clone the repository, change to project directory
 
 ``` {.bash}
-git clone https://github.com/junior-devleague/one-slice-of-meme-python.git
-cd one-slice-of-meme-python
+git clone https://github.com/junior-devleague/one-slice-of-meme.git
+cd one-slice-of-meme
 ```
 
 1.  Create a virtual enviornment and install dependencies
