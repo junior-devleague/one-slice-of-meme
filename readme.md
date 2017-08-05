@@ -54,14 +54,14 @@ git clone https://github.com/junior-devleague/one-slice-of-meme.git
 cd one-slice-of-meme
 ```
 
-1.  Create a virtual enviornment and install dependencies
+2.  Create a virtual enviornment and install dependencies
 
 ``` {.bash}
 virtualenv -p python3 env/
 env/bin/pip install -r requirements.txt
 ```
 
-1.  start your REPL and import provided lib
+3.  start your REPL and import provided lib
     -   From terminal, enter `env/bin/python`
     -   In your newly started REPL, enter `from assets.wild_meme
                   import LeftBeef`
